@@ -257,6 +257,18 @@ section {
     color: #000; 
 }
 
+.consec {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.two {
+    padding-top: 100px; 
+}
+
 
 
 /*inifite scroll*/
