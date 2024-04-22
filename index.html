@@ -16,7 +16,7 @@
 <body>
     <a href="#main" class="skip-main">Skip to Main Content</a>
     <div class="consec">
-        <section class="one">
+        <section class="one" id="section-one"> <!-- Added an id attribute to section one -->
             <div class="body_header">
                 <div id="p5-header"></div>
                 <h1>What's My Top 5?</h1>
@@ -49,10 +49,11 @@
                     <a href="books.html" class="category-link"><div id="p5-books"></div></a>
                     <a href="albums.html" class="category-link"><div id="p5-music"></div></a>
                 </div>
+                <a href="#section-two" class="down-arrow">↓</a> 
             </div>
         </section>
-        <section class="two">
-            <div class ="body_header">
+        <section class="two" id="section-two"> 
+            <div class="body_header">
                 <h1>About the Website</h1>
                 <br>
                 <p>Has your mind ever gone blank when someone asks you...</p>
@@ -81,6 +82,8 @@
                 <p>for my top 5 movies, books and albums.</p>
                 <br>
                 <p>I hope you find something new to enjoy :)</p>
+                <br>
+                <a href="#section-one" class="up-arrow">↑</a> 
             </div>
         </section>
     </div>
