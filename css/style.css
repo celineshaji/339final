@@ -407,7 +407,6 @@ section {
 
 
 /*book animation*/
-
 ::selection {
   background: transparent;
 }
@@ -520,8 +519,8 @@ section {
 }
 .slide {
     display: none;
-    max-width: 700px; 
-    max-height: 700px; 
+    max-width: 650px; 
+    max-height: 650px; 
     width: auto;
     height: auto;
 }
